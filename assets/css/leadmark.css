@@ -11437,7 +11437,7 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.49);
+  background: rgba(0, 0, 0, 0.59);
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11474,7 +11474,7 @@ textarea.form-control {
 
 
 .header .overlay .title {
-  font-size: calc(30px + (70 - 30) * ((100vw - 320px) / (1200 - 320)));
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
