@@ -2772,8 +2772,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ff6e42;
-  border-color: #ff6e42;
+  background-color: #18f5c5;
+  border-color: #42e9ff;
 }
 
 .btn-primary:hover {
@@ -5084,6 +5084,7 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -10791,7 +10792,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #494f54 !important;
+  color: #79ff42 !important;
 }
 
 .text-success {
@@ -11318,12 +11319,12 @@ textarea.form-control {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff5a29;
+  background: #094757;
   border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff6e42;
+  background:  #00cec9;
 }
 
 .table.v-align-center th, .table.v-align-center td {
@@ -11436,7 +11437,7 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.49);
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11504,7 +11505,7 @@ textarea.form-control {
 .header.components-header {
   max-height: 450px !important;
   height: 450px;
-  dispaly: none;
+  display: none;
   background-position: center -140px;
 }
 
@@ -11588,6 +11589,8 @@ textarea.form-control {
 
 .section .section-subtitle {
   font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #383d41;
   font-weight: 500;
   margin-bottom: 0px;
   opacity: .9;
@@ -11639,7 +11642,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  background: url(../imgs/home/h5.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
@@ -11704,7 +11707,7 @@ textarea.form-control {
 .portfolio-section .filters a.active {
   opacity: 1;
   border-radius: 100px;
-  background: #ff6e42;
+  background: rgb(157 209 73);
   color: #fff;
 }
 
@@ -11727,7 +11730,7 @@ textarea.form-control {
   left: 200%;
   width: 100%;
   height: 100%;
-  background: rgba(255, 110, 66, 0.8);
+  background:rgb(33 205 102 / 35%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
