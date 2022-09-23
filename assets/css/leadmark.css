@@ -11476,6 +11476,7 @@ textarea.form-control {
 .header .overlay .title {
   font-size: calc(30px + (70 - 30) * ((100vw - 320px) / (1200 - 320)));
   font-weight: bold;
+  text-align: center;
 }
 
 .header .shape svg {
