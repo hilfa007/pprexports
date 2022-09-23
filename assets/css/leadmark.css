@@ -4594,8 +4594,6 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -11427,7 +11425,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/homebg\ \(3\).jpg) no-repeat center center fixed;
+  background: url(../imgs/home/h5.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -11766,3 +11764,4 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
+
