@@ -11460,6 +11460,7 @@ textarea.form-control {
 .header .overlay .desc {
   color:white ;
   text-align: center;
+
 }
 
 .header .overlay .subtitle {
@@ -11474,7 +11475,7 @@ textarea.form-control {
 
 
 .header .overlay .title {
-  font-size: 50px;
+  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   font-weight: bold;
   text-align: center;
 }
