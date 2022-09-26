@@ -11486,7 +11486,7 @@ textarea.form-control {
 
 
 .header .overlay .title {
-  font-size: calc(40px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(30px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   font-weight: bold;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
