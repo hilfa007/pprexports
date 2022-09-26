@@ -57,6 +57,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -4627,6 +4628,7 @@ input[type="button"].btn-block {
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
+  color: #abd5df;
 }
 
 .navbar-text {
@@ -5041,7 +5043,7 @@ input[type="button"].btn-block {
 }
 
 .card {
-  position: relative;
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5056,12 +5058,14 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0;
+  border-radius: 1%;
+  margin-top: 10px;
 }
 
 .card > hr {
   margin-right: 0;
   margin-left: 0;
+  border-radius: 5%;
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
@@ -5083,13 +5087,20 @@ input[type="button"].btn-block {
 }
 
 .card-title {
+  color:#20460f;
   margin-bottom: 0.75rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
+.card-subtitle {
+  color:#419221;
+
+}
+
 .card-img{
   padding: 1rem;
+
 }
 
 .card-subtitle {
@@ -11437,7 +11448,7 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.59);
+  background: rgba(0, 0, 0, 0.67);
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11478,6 +11489,7 @@ textarea.form-control {
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   font-weight: bold;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header .shape svg {
@@ -11581,7 +11593,21 @@ textarea.form-control {
   padding-bottom: 140px !important;
 }
 
+.section.has-overlay:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0, 0.4);
+  z-index: 1;
+}
+
+
 .section .section-desc {
+  color:#020202;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 0px;
@@ -11592,7 +11618,7 @@ textarea.form-control {
 .section .section-subtitle {
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #383d41;
+  color: #20460f;
   font-weight: 500;
   margin-bottom: 0px;
   opacity: .9;
@@ -11600,6 +11626,7 @@ textarea.form-control {
 
 .section .section-title {
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding-bottom: 7px;
   font-weight: 600;
 }
@@ -11629,6 +11656,8 @@ textarea.form-control {
   position: static;
   z-index: 9;
 }
+
+.section
 
 .section.has-overlay:after {
   content: '';
